@@ -17,7 +17,7 @@ public class SpringOktaApplication {
     @Bean
     ApplicationRunner init(CarRepository repository){
         return args -> {
-            Stream.of("Ferrari", "Audi", "Jaguar", "Lamborghini", "BMW", "VW").forEach(
+            Stream.of("Ferrari", "Audi", "Jaguar", "Lamborghini", "BMW", "VW", "Toyota").forEach(
                     name -> {
                         Car car = new Car();
                         car.setName(name);
