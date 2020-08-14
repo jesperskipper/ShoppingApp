@@ -13,6 +13,7 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {FormsModule} from "@angular/forms";
 import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import {MatButtonModule} from "@angular/material/button";
     MatCardModule,
     MatListModule,
     MatFormFieldModule,
+    BrowserAnimationsModule,
     FormsModule,
     MatInputModule,
     MatButtonModule
